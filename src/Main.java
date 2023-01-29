@@ -4,12 +4,11 @@ public class Main {
         int adend = 1200;
 
 
-
         int bonuse = adend > 1000 ? adend / 100 : 0;
 
-        int FinalBalance = initialBalance + adend + bonuse;
+        int finalBalance = initialBalance + adend + bonuse;
 
-        System.out.println("Итоговый счет:" + FinalBalance);
+        System.out.println("Итоговый счет:" + finalBalance);
         System.out.println("Бонус:" + bonuse);
     }
 }
